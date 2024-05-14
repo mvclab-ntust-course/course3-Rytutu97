@@ -1,0 +1,20 @@
+訓練圖:倘若訓練的張數過少，會重複訓練同一張很多次，因此我訓練了20張，並且盡量選角度不同的。
+並且加上提示詞。
+
+規範圖:需要是需要的是一大批跟素材圖同類別，但是又不會太相似，也不會太過不相似的圖。我選了27張。
+
+
+Step:
+1.https://colab.research.google.com/github/hollowstrawberry/kohya-colab/blob/main/Dataset_Maker.ipynb
+用規範圖產生提示詞再用訓練圖產生提示詞。
+ 
+2.https://colab.research.google.com/github/hollowstrawberry/kohya-colab/blob/main/Lora_Trainer.ipynb
+跑模型 epoch = 20。
+
+3.https://vocus.cc/article/63f87151fd89780001283144
+輸入提示詞，生出圖片。
+
+
+結論:
+因為我給的大多數是半身照，所以圖片最好也只要有下半身。
+可能因為提示詞不夠明確，因此只有下巴較像我。
